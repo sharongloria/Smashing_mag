@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spinnaker', sans-serif;
+    background-color: #fff;
+    
+}
+#smashing{
+    width: 200px;
+    height: 80px;
+   padding-right: 20px;
+   padding-top: 40px;
+}
+.center{
+    background-color: #d33a2c;
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    margin-top: 0px;
+    height: 80px;
+   
+    
+}
+ .navbar li{
+    display: inline;
+    padding: 40px;
+    justify-content: space-between;
+
+}
+.navbar li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    justify-content: space-between;
+    font-family: Mija;
+    
+    
+}
+#middle{
+    text-align: center;
+    background-color: #fff;
+}
+input{
+    
+    height: 70px;
+   float: right;
+    width: 500px;
+    margin-top: 60px;
+    margin-right: 40px;
+    border-radius: 15px;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+        padding-top: 0px;
+    }
+    .grid-container1{
+        display: grid;
+        margin-top: 0px;
+        padding-top: 0px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 800px 800px;
+        
+        
+    }
+    .image1{
+        float: left;
+        width: 75px;
+        border: 5px solid white;
+        border-radius: 11px;
+        vertical-align: middle;
+        transform: rotate(-15deg);
+        transform-origin: left-bottom;
+        margin-right: 30px;
+        margin-top: 40px;
+    }
+    .image1:hover{
+        transform: rotate(0deg);
+        cursor: pointer;
+    }
+    .grid1{
+        background-color: #bc3428;
+        border:1px grey;
+        background-origin: border-box;
+        text-align: center;
+        font-size: 30px;
+        padding:20px;
+        font-family: 'Spinnaker', sans-serif;
+        color: #fff;
+        border-bottom: 1px grey;
+        
+       
+
+    }
+    .grid1 > h2{
+        margin-top: 40px;
+    }
+    .grid1 > p{
+        margin-top: 100px;
+    }
+    .grid2{
+        background-color: #c7372a;
+        border:1px grey;
+        text-align: center;
+        border-bottom: 1px grey;
+        font-size: 30px;
+        padding:20px;
+        
+        color: #fff;
+    }
+    .grid2 > p{
+        margin-top: 100px;
+    }
+    .grid-container2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+         grid-template-rows:800px ;
+    }
+    .grid3{
+        font-size: 30px;
+        padding:40px;
+        transform: scale(1.1);
+        margin: 20px;
+        cursor: pointer;
+    }
+    .grid3:hover, .grid3:focus, .grid3:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.2);
+      }
+    .grid-container3{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 900px;
+        box-sizing: border-box;
+        margin-left: 30px;
+        border-radius: 40px;
+        
+    }
+    .grid4{
+        display: flex;
+        flex-direction: row;
+        background-color: #c7372a;
+        justify-content: space-between;
+        font-size: 30px;
+        color: #fff;
+        
+        
+    }
+    .grid-4{
+        background-color: #c7372a;
+        text-align: center;
+        color: #fff;
+        font-size: 50px;
+        border-radius: 20px;
+    }
+    
+
+    
+    
+    
+    .grid5{
+        font-size: 30px;
+        padding: 20px;
+        color: #fff;
+
+    }
+    .grid-container4{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 900px;
+        margin: 20px;
+    }
+    .alone{
+        text-align: center;
+        font-size: 25px;
+        color:gray;
+        padding-top: 100px;
+        margin-top: 30px;
+        text-decoration:underline;
+    }
+    .grid-container5{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1400px;
+        margin: 20px;
+    }
+    .grid6{
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+        background-color: #1b71bb;
+        background-image: linear-gradient(#1b71bb 45%,#4399d9 100%);
+        color: #fff;
+        border-radius: 20px;
+        
+    }
+    .grid6 > img{
+        height: 600px;
+    }
+    .grid-container5{
+        display: grid;
+        grid-template-rows:400px ;
+    }
+    #zara{
+        font-size: 30px;
+        float: left;
+    }
+
+    .grid-container6{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 400px 400px 400px;
+        margin:0px;
+    }
+    .grid-container7{
+        display: grid;
+        grid-template-rows: 700px;   
+     }
+     .grid-container8{
+         display: grid;
+         grid-template-columns: 900px 900px;
+         grid-template-rows: 600px;
+         margin: auto;
+         grid-gap: 30px;
+         margin-bottom: 50px;
+         margin-top: 130px;
+         
+     }
+     .alone:hover{
+         color: #c7372a;
+         cursor: pointer;
+     }
+     #grid4pic{
+        height: 500px;
+         margin-right: 100px;
+         margin-bottom: 200px;
+         margin-top: -40px;
+         transform: rotate(-15deg);
+         transform-origin: left;
+     }
+     #grid4pic:hover{
+         transform: rotate(0deg);
+     }
+     .grid8{
+         background-color: whitesmoke;
+         font-size: 30px;
+         padding: 20px;
+         border-radius: 20px;
+         box-shadow: rgba(0, 0, 0, .12);
+      
+     }
+     .grid-container9{
+         display: grid;
+         grid-template-columns: 900px 900px;
+         grid-template-rows: 900px;
+         margin:auto;
+         
+         text-align: center;
+         grid-gap: 30px;
+
+     }
+     .grid9{
+        background-color: whitesmoke;
+        font-size: 30px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, .12);
+     }
+     .last{
+         display: grid;
+         background-color: #c7372a;
+         grid-template-rows: 500px;
+     }
+        
+
+     
+    
+    
+    

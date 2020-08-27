@@ -82,6 +82,8 @@ input{
     .image1:hover{
         transform: rotate(0deg);
         cursor: pointer;
+    
+
     }
     .grid1{
         background-color: #bc3428;
